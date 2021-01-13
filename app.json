@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "AppCorona",
+    "slug": "AppCorona",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/covid.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.sanbercode.appcorona",
+      "buildNumber": "1.0.0"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "android": {
+      "package": "com.sanbercode.appcorona"
+    }
+  },
+  "android": {
+    "package": "com.sanbercode.appcorona",
+    "versionCode": 1
+  }
+}
